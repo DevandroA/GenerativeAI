@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+/data/
+checkpoints/
+*.pt
+*.pth
+reports/data/split_indices.npz
