@@ -1,0 +1,71 @@
+{
+  "source_repository": "https://github.com/zalandoresearch/fashion-mnist",
+  "review_scope": "all real dataset images through the default DataLoaders",
+  "train_val_overlap": 0,
+  "official_test_separate": true,
+  "splits": {
+    "train": {
+      "checked_images": 55000,
+      "all_batches_valid": true,
+      "global_min": -1.0,
+      "global_max": 1.0,
+      "last_batch_shape": [
+        88,
+        1,
+        32,
+        32
+      ]
+    },
+    "val": {
+      "checked_images": 5000,
+      "all_batches_valid": true,
+      "global_min": -1.0,
+      "global_max": 1.0,
+      "last_batch_shape": [
+        8,
+        1,
+        32,
+        32
+      ]
+    },
+    "test": {
+      "checked_images": 10000,
+      "all_batches_valid": true,
+      "global_min": -1.0,
+      "global_max": 1.0,
+      "last_batch_shape": [
+        16,
+        1,
+        32,
+        32
+      ]
+    }
+  },
+  "source_archives": [
+    {
+      "file": "train-images-idx3-ubyte.gz",
+      "md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "checksum_matches": true
+    },
+    {
+      "file": "train-labels-idx1-ubyte.gz",
+      "md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "checksum_matches": true
+    },
+    {
+      "file": "t10k-images-idx3-ubyte.gz",
+      "md5": "bef4ecab320f06d8554ea6380940ec79",
+      "checksum_matches": true
+    },
+    {
+      "file": "t10k-labels-idx1-ubyte.gz",
+      "md5": "bb300cfdad3c16e7a12a480ee83cd310",
+      "checksum_matches": true
+    }
+  ],
+  "total_checked_images": 70000,
+  "saved_notebook": {
+    "executed_code_cells": 7,
+    "saved_error_outputs": 0
+  }
+}

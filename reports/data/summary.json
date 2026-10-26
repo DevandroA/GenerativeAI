@@ -1,0 +1,104 @@
+{
+  "dataset": "Fashion-MNIST",
+  "source_repository": "https://github.com/zalandoresearch/fashion-mnist",
+  "download_mirrors": [
+    "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/"
+  ],
+  "config": {
+    "root": "data",
+    "val_size": 5000,
+    "batch_size": 128,
+    "num_workers": 0,
+    "pin_memory": false,
+    "download": true,
+    "horizontal_flip_p": 0.5,
+    "drop_last_train": false,
+    "seed": 42
+  },
+  "versions": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu"
+  },
+  "train_val_overlap": 0,
+  "test_source": "official train=False split; not included in train/validation",
+  "batch_contract": "float32 [B, 1, 32, 32], image tensor only, range [-1, 1]",
+  "verification_scope": "split membership and one batch per split",
+  "splits": {
+    "train": {
+      "images": 55000,
+      "batches": 430,
+      "class_counts": {
+        "T-shirt/top": 5500,
+        "Trouser": 5500,
+        "Pullover": 5500,
+        "Dress": 5500,
+        "Coat": 5500,
+        "Sandal": 5500,
+        "Shirt": 5500,
+        "Sneaker": 5500,
+        "Bag": 5500,
+        "Ankle boot": 5500
+      },
+      "checked_batch_shape": [
+        128,
+        1,
+        32,
+        32
+      ],
+      "checked_batch_min": -1.0,
+      "checked_batch_max": 1.0,
+      "augmentation": "horizontal flip"
+    },
+    "val": {
+      "images": 5000,
+      "batches": 40,
+      "class_counts": {
+        "T-shirt/top": 500,
+        "Trouser": 500,
+        "Pullover": 500,
+        "Dress": 500,
+        "Coat": 500,
+        "Sandal": 500,
+        "Shirt": 500,
+        "Sneaker": 500,
+        "Bag": 500,
+        "Ankle boot": 500
+      },
+      "checked_batch_shape": [
+        128,
+        1,
+        32,
+        32
+      ],
+      "checked_batch_min": -1.0,
+      "checked_batch_max": 1.0,
+      "augmentation": "none"
+    },
+    "test": {
+      "images": 10000,
+      "batches": 79,
+      "class_counts": {
+        "T-shirt/top": 1000,
+        "Trouser": 1000,
+        "Pullover": 1000,
+        "Dress": 1000,
+        "Coat": 1000,
+        "Sandal": 1000,
+        "Shirt": 1000,
+        "Sneaker": 1000,
+        "Bag": 1000,
+        "Ankle boot": 1000
+      },
+      "checked_batch_shape": [
+        128,
+        1,
+        32,
+        32
+      ],
+      "checked_batch_min": -1.0,
+      "checked_batch_max": 1.0,
+      "augmentation": "none"
+    }
+  }
+}

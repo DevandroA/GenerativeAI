@@ -1,0 +1,38 @@
+{
+  "source_repository": "https://github.com/zalandoresearch/fashion-mnist",
+  "checksums_from": "torchvision.datasets.FashionMNIST.resources",
+  "files": [
+    {
+      "file": "train-images-idx3-ubyte.gz",
+      "source": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-images-idx3-ubyte.gz",
+      "bytes": 26421880,
+      "expected_md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "actual_md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "verified": true
+    },
+    {
+      "file": "train-labels-idx1-ubyte.gz",
+      "source": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-labels-idx1-ubyte.gz",
+      "bytes": 29515,
+      "expected_md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "actual_md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "verified": true
+    },
+    {
+      "file": "t10k-images-idx3-ubyte.gz",
+      "source": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-images-idx3-ubyte.gz",
+      "bytes": 4422102,
+      "expected_md5": "bef4ecab320f06d8554ea6380940ec79",
+      "actual_md5": "bef4ecab320f06d8554ea6380940ec79",
+      "verified": true
+    },
+    {
+      "file": "t10k-labels-idx1-ubyte.gz",
+      "source": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-labels-idx1-ubyte.gz",
+      "bytes": 5148,
+      "expected_md5": "bb300cfdad3c16e7a12a480ee83cd310",
+      "actual_md5": "bb300cfdad3c16e7a12a480ee83cd310",
+      "verified": true
+    }
+  ]
+}

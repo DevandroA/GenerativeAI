@@ -1,0 +1,25 @@
+...................s.                                                    [100%]
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED tests/test_data_pipeline.py::test_normalization_padding_and_round_trip
+PASSED tests/test_data_pipeline.py::test_flip_only_applies_to_training_and_does_not_modify_raw
+PASSED tests/test_data_pipeline.py::test_stratified_split_covers_all_training_data_without_overlap
+PASSED tests/test_data_pipeline.py::test_split_allocation_handles_nondivisible_validation_size
+PASSED tests/test_data_pipeline.py::test_views_have_independent_augmentation_and_official_test_is_separate
+PASSED tests/test_data_pipeline.py::test_loader_reproducibility_and_validation_order
+PASSED tests/test_data_pipeline.py::test_validation_iteration_does_not_consume_training_shuffle
+PASSED tests/test_data_pipeline.py::test_drop_last_changes_training_only
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs0]
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs1]
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs2]
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs3]
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs4]
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs5]
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs6]
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs7]
+PASSED tests/test_data_pipeline.py::test_reject_invalid_configuration[kwargs8]
+PASSED tests/test_data_pipeline.py::test_configuration_keeps_other_roles_sections
+PASSED tests/test_data_pipeline.py::test_report_generation_on_explicitly_synthetic_fixture
+PASSED tests/test_shapes.py::test_dataset_and_dataloader_image_only_contract
+SKIPPED [1] tests/test_data_pipeline.py:135: Multiprocessing IPC unavailable in this runtime: [Errno 1] Operation not permitted
+20 passed, 1 skipped in 1.03s
