@@ -1,0 +1,11 @@
+# Data settings owned by A2. Model/training settings will be added by A1/A3.
+seed: 42
+data:
+  root: data
+  val_size: 5000
+  batch_size: 128
+  num_workers: 0          # Portable default for Windows and notebooks.
+  pin_memory: false      # Set true when training on CUDA.
+  download: true
+  horizontal_flip_p: 0.5 # Training only; validation/test never augmented.
+  drop_last_train: false
