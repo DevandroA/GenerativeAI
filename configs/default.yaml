@@ -1,0 +1,10 @@
+seed: 42
+data:
+  root: data
+  val_size: 5000
+  batch_size: 128
+  num_workers: 0
+  pin_memory: false
+  download: true
+  horizontal_flip_p: 0.5
+  drop_last_train: false
