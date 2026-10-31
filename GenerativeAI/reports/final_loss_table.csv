@@ -1,0 +1,4 @@
+run,konfigurasi,schedule,time_emb,epoch,train_loss_akhir,val_loss_akhir,val_loss_terbaik,epoch_terbaik
+linear,Linear + time emb,linear,ya,50,0.0267162726975457,,,
+cosine,Cosine + time emb,cosine,ya,50,0.0485191066684417,0.0459009274840354,0.0459009274840354,50.0
+linear_notime,Linear tanpa time emb,linear,tidak,50,0.0277544956957531,0.0258650542855262,0.0258650542855262,50.0
